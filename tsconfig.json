@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "outDir": "./dist",
+        "strict": false,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true
+    },
+    "files": [
+        "index.ts",
+        "routes.ts",
+        "storage.ts",
+        "db.ts",
+        "static.ts",
+        "shared/schema.ts",
+        "shared/routes.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
