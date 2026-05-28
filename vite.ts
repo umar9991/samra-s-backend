@@ -17,6 +17,7 @@ export async function setupVite(server: Server, app: Express) {
   };
 
   const vite = await createViteServer({
+    root: path.resolve(import.meta.dirname, "..", "client"),
     ...viteConfig,
     configFile: false,
     customLogger: {
